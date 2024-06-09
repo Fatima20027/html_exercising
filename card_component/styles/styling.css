@@ -38,15 +38,12 @@ body {
     font-family: "Fraunces", serif;
     font-weight: 700;
     font-size: 30px;
-}
-
-.title{
     line-height: 27px;
     color: hsl(212, 21%, 14%);
     width: 200px;
-    
-    
 }
+
+
 
 .paragraph{
     width: 245px;
@@ -58,9 +55,6 @@ body {
     font-family: "Fraunces", serif;
     font-weight: 700;
     font-size: 30px;
-    
-
-    
 }
 
 
@@ -79,8 +73,6 @@ body {
     bottom: -0px;
     top: -1px;
     left: -1px;
-    
-
 }
 
 .image2 {
@@ -119,9 +111,6 @@ body {
     cursor: pointer;
     border-radius: 8px;
     white-space: nowrap;
-    
-
-
 }
 
 .add button i{
