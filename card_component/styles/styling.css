@@ -1,0 +1,201 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+
+    
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 445px; 
+    margin-top: 70px;
+    display: flex;
+    
+    
+    
+}
+
+.info {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 0;
+    transition: all 200ms ease-in-out;
+    width: 15rem;
+    vertical-align: top;
+    padding-left: 10px;
+
+
+}
+
+.title {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.title{
+    line-height: 27px;
+    color: hsl(212, 21%, 14%);
+    width: 200px;
+    
+    
+}
+
+.paragraph{
+    width: 245px;
+
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 30px;
+    
+
+    
+}
+
+
+
+.paragraph, .perfum, .discount, .add button{
+    font-family: "Montserrat", sans-serif;
+}
+
+.image {
+    width: 50%px;
+    height: 100.5%;
+    border-radius: left 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    bottom: -0px;
+    top: -1px;
+    left: -1px;
+    
+
+}
+
+.image2 {
+    width: 50%px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: none;
+}
+
+.perfum, .paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding-top: 10px;
+    line-height: 23px;
+}
+
+.perfum {
+    padding-bottom: 15px;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+.add button{
+    color: white;
+    padding: 14px 60px;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    white-space: nowrap;
+    
+
+
+}
+
+.add button i{
+    font-size: 20px;
+}
+
+.add button:hover{
+    background-color: hsl(159, 47%, 15%);
+}
+
+.discount p{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.price, .discount {
+    display: inline-block;
+    margin-right: 15px;
+
+    
+}
+
+.price, .discount, .add button {
+    position: relative;
+    bottom: 18px;
+
+
+}
+
+@media only screen and (max-width: 375px){
+    .image {
+        display: none;
+    }
+    .image2 {
+        display: block;
+        width: 100.80%;
+        margin-top: -17px;
+        margin-left: -1px;
+        
+    }
+
+    .card {
+        display: inline-block;
+        margin: 1rem 1.5rem;
+        padding: 1rem 0;
+        transition: all 200ms ease-in-out;
+        width: 21rem;
+        height: 36rem;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .title {
+        width: 300px;
+    }
+
+    .paragraph{
+        width: 295px;
+    }
+
+    .add button {
+        padding: 14px 86px;
+        margin-top:  -20px;
+
+    }
+
+    .price, .discount{
+        margin-top: -10px;
+        
+    }
+}
